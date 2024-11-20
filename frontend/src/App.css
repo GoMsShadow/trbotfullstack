@@ -1,0 +1,212 @@
+/* body {
+  background-color: #16171a !important;
+}
+* {
+  box-sizing: border-box;
+}
+.nav-tabs .nav-link {
+  border-radius: 0;
+  transition: background-color 0.3s;
+  color: var(--text-secondary-color);
+  border: none;
+}
+.nav-tabs .nav-link:hover {
+  background: inherit !important;
+}
+.nav-tabs .nav-link.active {
+  background: inherit;
+  border: none;
+  color: var(--text-primary-color);
+  border-bottom: 1px solid var(--border-primary-color);
+}
+.nav-link:hover {
+  color: var(--text-secondary-color);
+  border: none;
+}
+.card {
+  margin-top: 20px;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  list-style: none;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+.page-item {
+  margin: 0 5px;
+}
+.page-link {
+  display: block;
+  padding: 10px 15px;
+  text-decoration: none;
+  color: #007bff;
+  border: 1px solid #007bff !important;
+  border-radius: 5px;
+  transition: background-color 0.3s, color 0.3s;
+}
+.page-link:hover {
+  background-color: #007bff !important;
+  color: #fff !important;
+}
+.page-item.active .page-link {
+  background-color: #007bff !important;
+  color: #fff;
+  border: 1px solid #007bff;
+}
+.page-item.disabled .page-link {
+  color: #6c757d;
+  pointer-events: none;
+  border: 1px solid transparent;
+}
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+  white-space: nowrap;
+}
+.table tr th,
+.table tr td {
+  vertical-align: middle;
+  text-align: center;
+}
+.table {
+  border-bottom: 1px solid var(--border-secondary-color);
+}
+.table tr th {
+  background: var(--table-header-color);
+  color: var(--text-secondary-color);
+}
+
+.table tr td {
+  background: none;
+  color: var(--text-secondary-color);
+}
+:root {
+  --bg-color: #16171a;
+  --elem-bg-color: #292b30;
+  --text-primary-color: #ffffff;
+  --text-secondary-color: #6e7583;
+  --border-primary-color: #689aff;
+  --border-secondary-color: #222429;
+  --table-header-color: #1f2025;
+}
+
+.container {
+  background-color: inherit !important;
+}
+
+.input-container {
+  padding: 8px 12px;
+  border-radius: 4px;
+  background-color: var(--elem-bg-color);
+  display: flex;
+  align-items: center;
+}
+.input-title {
+  margin-right: 8px;
+  color: var(--text-secondary-color);
+}
+.input {
+  border: none;
+  outline: none;
+  padding: 0;
+  height: 100%;
+  background-color: inherit;
+  color: var(--text-primary-color);
+}
+
+.input-group {
+  background: var(--elem-bg-color);
+  border-radius: 4px;
+}
+.input-group:hover,
+.input-group:active {
+  outline: 1px solid var(--border-primary-color);
+}
+.input-group-text {
+  margin-right: 8px;
+  color: var(--text-secondary-color);
+  background: inherit;
+  border: none;
+}
+.form-control {
+  border: none !important;
+  outline: none !important;
+  background: inherit;
+  color: var(--text-primary-color) !important;
+  border-radius: 4px;
+}
+.form-control:focus {
+  background: inherit;
+  border: none;
+  box-shadow: none;
+}
+.nav-tabs {
+  border-bottom: 1px solid var(--border-secondary-color);
+}
+
+.table-container {
+  border-radius: 8px;
+  border: 1px solid var(--elem-bg-color);
+  box-sizing: border-box;
+  overflow: hidden;
+} */
+
+body {
+  background: #16171a;
+}
+.root-container {
+  max-width: 1200px; /* Maximum width */
+  width: 100%; /* Full width until max-width */
+  padding: 20px; /* Padding inside the content area */
+  margin-left: auto;
+  margin-right: auto;
+}
+.w-100p {
+  width: 100%;
+}
+.justify-content-center {
+  display: flex;
+  justify-content: center;
+}
+.orders-table th.ant-table-cell,
+.orders-table td.ant-table-cell {
+  padding: 10px !important;
+  border: none !important;
+}
+.orders-table th.ant-table-cell {
+  border-bottom: 1px solid #222429 !important;
+  color: #adb1b9 !important;
+}
+.orders-table td.ant-table-cell {
+  height: 52px !important;
+  color: #6e7583 !important;
+}
+.orders-table .ant-table-container {
+  border: 1px solid #222429;
+  border-radius: 8px;
+}
+
+.price-table th.ant-table-cell,
+.price-table td.ant-table-cell {
+  padding: 10px !important;
+  border: none !important;
+}
+.price-table th.ant-table-cell {
+  padding: 4px 10px !important;
+}
+.price-table td.ant-table-cell {
+  color: #6e7583 !important;
+}
+.price-table .ant-table-container {
+  border: 1px solid #222429;
+}
